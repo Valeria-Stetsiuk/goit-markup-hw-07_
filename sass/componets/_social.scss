@@ -16,14 +16,13 @@
     border-radius: inherit;
     padding: 12px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            fill: #FFFFFF;
+                background-color: #2196F3;
+        }
 }
 
-.social__network:hover,
-.social__network:focus {
-
-    fill: #FFFFFF;
-    background-color: #2196F3;;
-}
 
 .social__icon {
     width: 20px;
